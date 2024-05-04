@@ -1,13 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="footer.css">
-</head>
-<body>
     <div class="footer">
-        This is footer
+        <div class="footTop">
+            <div class="footlogo">
+                <div class="footimg">
+                    <img src="../../Asset/footer/logo cafe.png" alt="">
+                </div>
+        </div>
+            <div class="footnewLetter">
+                <div class="footText">
+                    <p>News Letter</p>
+                </div>
+                <div class="input">
+                    <span>
+                        <input type="text" placeholder="  E-mail">
+                        <button class="salmon"><p>Subscribe</p></button>
+                        <p>Sign up with your email address to receive news and updates</p>
+                    </span>
+                </div>
+            </div>
+            <div class="footmenu">
+                <a class="fnavlink" href="../home/home.html">Home</a>
+            <a class="fnavlink" href="../menu/menu.html">Menu</a>
+            <a class="fnavlink" href="../OurCat/ourCat.html">Our Cat</a>
+            <a class="fnavlink" href="../about/about.html">About us</a>
+            </div>
+            <div class="footcontact">
+                <p>CONTACT US <br> Any where, Any cat, HewKao100 <br>Call Us: +666666666 <br>Kaokrieb@gmail.com</p>
+            </div>
+        </div>
+        <div class="footBot">
+            <div class="botline">
+                <img src="../../Asset/footer/Line 4.png" alt="">
+            </div>
+            <div class="bottext">
+                <p>Copyright ©2023 Cat cafe. All rights reserved.</p>
+            </div>
+        </div>
     </div>
-</body>
-</html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prompt&display=swap');
+*{
+    background-color: #F5F2EF;
+    margin: 0;
+    padding: 0;
+}
+
+/* footer top */
+
+.footTop{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+}
+
+.footimg img{
+    width: 230px;
+}
+
+.footText{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.input p {
+    font-family: "DM Sans", sans-serif;
+}
+.input input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+}
+.salmon{
+    background-color: #2B231D;
+}
+.salmon p {
+    color:#ffff;
+    background-color: #2B231D;
+}
+.input button {
+    cursor: pointer;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    font-family: "DM Sans", sans-serif;
+}
+.footmenu{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.fnavlink{
+    color: #2B231D;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.fnavlink:hover {
+    color: #DE6868; /* Text color on hover */
+}
+
+.footcontact{
+    font-family: "DM Sans", sans-serif;
+}
+/* footer Bottom */
+
+.botline img{
+    width: 95%;
+    padding: 0 0 0 2.5%;
+}
+.bottext{
+    font-family: "DM Sans", sans-serif;
+    color: #AA9F96;
+    font-weight:700;
+    display:flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0;
+}
+</style>

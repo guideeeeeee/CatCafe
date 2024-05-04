@@ -1,21 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="navbar.css">
-</head>
-<body>
     <div class="nav">
         <div class="image">
             <img src="../../Asset/navbar/logo cafe.png" alt="" >
         </div>
         <div class="menubar">
-            <a class="navlink" href="#">Home</a>
-            <a class="navlink" href="#">Menu</a>
-            <a class="navlink" href="#">Our Cat</a>
-            <a class="navlink" href="#">About us</a>
+            <a class="navlink" href="../home/home.html">Home</a>
+            <a class="navlink" href="../menu/menu.html">Menu</a>
+            <a class="navlink" href="../OurCat/ourCat.html">Our Cat</a>
+            <a class="navlink" href="../about/about.html">About us</a>
         </div>
     </div>
-</body>
-</html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prompt&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #F5F2EF;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+}
+.image img{
+    padding: 10px;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+.menubar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    left: 65%;
+}
+.menubar a {
+    padding: 0 4% 0 0 ;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    
+}
+.navlink{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.navlink::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    top: 30px;
+    height: 2px;
+    background-color: #DE6868;
+    transition: width 0.3s; /* Smooth width transition */
+}
+
+.navlink:hover {
+    color: #DE6868; /* Text color on hover */
+}
+
+.navlink:hover::after {
+    width: 50%; /* Full width on hover */
+    top: 30px;
+}
+
+
+</style>
