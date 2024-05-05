@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prompt&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: #CFBCAE;
+    background-image: url('../../Asset/wallpaper/Group\ 74.png ');
+}
+.main-top{
+    display: flex;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-left{
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+}
+
+.opencafe{
+    width: 400px;
+    height: auto;
+    margin-top: 100px;
+}
+
+.box-right{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+.visitUs{
+    width: 200px;
+    margin-top: 13%;
+    margin-left: 25%;
+}
+
+
+
+.map{
+    width: 600px;
+    height: auto;
+    margin-top: 10px;
+}
+.main-bottom{
+    padding-left: 55%;
+    padding-bottom: 40px;
+}
+.thisp{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+.contaner{
+    display:flex;
+    padding: 10px 0 10px 0;
+    align-items:center;
+}
+.contaner img{
+    width: 40px;
+    padding-right: 20px;
+}
+.finalp{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}

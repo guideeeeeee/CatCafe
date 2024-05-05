@@ -10,48 +10,80 @@
 .catCafe-main{
     display:flex;
     align-items:center; 
+    height: auto;
 }
 
 /* left */
 
 .catCafe-left{
     /* flex-grow: 1; */
-    width: 50%;
+    /* width: 30%; */
+    flex: 1;
     padding: 0 0 5% 7%;
-    
-    
 }
-.catCafe-left-top img , .catCafe-left-bottom img{
-    width: 50%;
+
+/* img logo */
+
+.catCafe-left-top img {
+    width: 400px;
     display: flex;
     justify-content: center;
+    padding-top: -10px;
 }
+
+/* img cat */
+
+.catCafe-left-bottom img{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
 
 /* right */
 
-.tor{
-    z-index:1;
-    transform: scale(0.6);
-    position: absolute;
-    left: 28%;
-    bottom: 5%;
-
-}
+/* box ครอบ absolute */
 .catCafe-right{
     /* flex-grow: 3; */
-    width: 70%;
+    /* width: 70%; */
+    flex: 2;
+    height: auto;
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boxfortextCatCafe{
     display: flex;
-    justify-content: center;
+    padding-left: 100px;
     flex-direction: column;
-}
-.catCafe-box{
-    display:flex;
-    width: 700px;
+    position: relative;
     
-    z-index: 999;
+}
+
+.catCafe-box1{
+    display:flex;
+    width: 800px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('/Asset/home/Group\ 69.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    height: auto; */
+    
+    
+}
+
+.catCafe-box2{
+    display:flex;
+    width: 800px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
     /* background-image: url('/Asset/home/Group\ 69.svg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -60,9 +92,19 @@
     background-image: url('../../Asset/home/Group 69.svg');
     background-position: left top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
+    position: absolute;
     
 }
+
+/* 
+@media (max-width: 400px){
+    .catCafe-main{
+        height: 500px;
+        flex-direction: column;
+    }
+} */
+
 .tonnam{
     z-index: 999;
     font-family: "Playfair Display", serif;

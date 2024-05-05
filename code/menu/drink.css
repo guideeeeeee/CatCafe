@@ -33,6 +33,9 @@
     padding: 40px 0 0 0 ;
 }
 .drinksearch input{
+    padding-left: 10px;
+    font-family: "DM Sans", sans-serif;
+    z-index: 1000;
     border-color: #8E8177;
     border-style: solid;
     border-width: 2px;
@@ -57,7 +60,11 @@
     justify-content: space-evenly;
     padding : 0 0 10% 0 ;
 }
-
+.listDrink1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .drink-container{
     display:flex;
     justify-content: center;
@@ -130,6 +137,7 @@
 } */
 
 .main{
+    z-index:1000;
     display: flex;
     background-image: url('../../Asset/wallpaper/Group\ 74.png ');
     background-position: left top;
@@ -139,10 +147,12 @@
 }
 
 .boxleft{
+    z-index:1;
     width: 80%;
 }
 
 .boxright{
+    z-index:1;
     width: 35%;
     float: right;
 }
@@ -176,7 +186,7 @@
 .cardtag{
     width: 300px;
     height: 300px;
-    background-color: #ECE7E2;
+    background-color: #F5F2EF;
     border-radius: 10px;
     overflow: hidden;
     padding: 15px;
@@ -189,5 +199,18 @@
     font-weight:600;
     text-align: center;
     color: #4A351C;
+    margin:10px 0 20px ;
 }
 
+.hastag{
+    text-decoration: none;
+    color: #DE6868;
+    font-family: "DM Sans", sans-serif;
+    padding: 5px 15px 5px 15px;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #ECE7E2;
+    border-width: 0px;
+    margin: 5px;
+}

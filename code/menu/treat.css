@@ -28,6 +28,7 @@
 }
 
 .drinksearch{
+    z-index:1000;
     display: flex;
     justify-content: center;
     padding: 40px 0 0 0 ;
@@ -142,10 +143,12 @@
 }
 
 .boxleft{
+    z-index: 1;
     width: 80%;
 }
 
 .boxright{
+    z-index:1;
     width: 35%;
     float: right;
 }

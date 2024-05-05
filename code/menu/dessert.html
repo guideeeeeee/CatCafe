@@ -4,24 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dessert.css">
+
 </head>
 <body>
     <div class="thisnav" style ="position: sticky;top: 0;z-index: 1000;"></div>
     <script src="../script.js"></script>
 
     <div class="drinkicon">
-        <button onclick="location.href = 'treat.html'"><img src="../../Asset/drink/catLeft.png" alt=""></button>
+        <button onclick="location.href = 'drink.html'"><img src="../../Asset/dessert/drinkLeft.png" alt=""></button>
         
         <div class="drank">
-            <img src="../../Asset/drink/drinkicon.png" alt="">
+            <img src="../../Asset/dessert/dessertIcon.png" alt="">
         </div>
-        <button onclick="location.href = 'dessert.html'"><img src="../../Asset/drink/cakeright.png" alt=""></button>
+        <button onclick="location.href = 'treat.html'"><img src="../../Asset/dessert/catRight.png" alt=""></button>
     </div>
 
-    <div class="dessert">
+
+    <div class="drinksearch">
+        <input type="text" placeholder="  Search Products">
+        <div class="searchbtn">
+            <button><img src="../../Asset/drink/searchIcon.png" alt=""></button>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="boxleft">
+            <div class="drink">
+                <div class="listDrink">
+                    <div class="drink-container">
+                        <script src="dessertcard.js"></script>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+
+        <div class="boxright">
+            <div class="rightTag">
+                
+                <div class="card-container">
+                    <div class="cardtag">
+                    <h1>Tags</h1>
+                    <button class="hastag">#milk</button>
+                    <button class="hastag">#coffee</button>
+                    <button class="hastag">#dessert</button>
+                    <button class="hastag">#cat treats</button>
+                    <button class="hastag">#chocolate</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
 
     </div>
+    
+
     <div class="thisfoot"></div>
     <script src="../scriptfoot.js"></script>
+
 </body>
 </html>
