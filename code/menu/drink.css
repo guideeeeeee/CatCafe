@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prompt&display=swap');
+
+
+.drinkicon{
+    display: flex;
+    justify-content:center;
+    padding: 2.5% 0 0 ;
+}
+.drinkicon button{
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+.drinkicon button img{
+    height: 40px;
+    padding: 5px 0 0 0;
+}
+.drank {
+    padding: 0 5% 0 5%;
+}
+.drank img{
+    height: 50px;
+}
+
+.drinksearch{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 0 0 ;
+}
+.drinksearch input{
+    border-color: #8E8177;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    width: 400px;
+}
+.drinksearch button{
+    width: 40px;
+    height: 40px;
+    background-color: #2B231D;
+    border-radius: 10px;
+}
+.drinksearch img{
+    width: 20px;
+}
+.searchbtn{
+    padding: 0 0 0 10px;
+}
+.listDrink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding : 0 0 10% 0 ;
+}
+
+.drink-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.dcard{
+    width: 180px;
+    background-color: #F5F2EF;
+    border-radius: 15px;;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    overflow: hidden;
+    padding: 20px;
+    
+}
+
+
+.Menudrink {
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    object-fit: cover;
+    padding-bottom: 7px;
+}
+
+.dcard-content img{
+    max-width: 30px;
+    max-height: 30px;
+    padding-right: 5px;
+}
+
+.contenttop p{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight:700;
+    text-align: center;
+    color: #4A351C;
+}
+
+.contenttop{
+    display: flex;
+    padding-bottom: 5px;
+}
+.listbottom{
+    display: flex;
+    justify-content: space-between;
+}
+.listbottom p{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4A351C;
+    font-weight: bold;
+}
+.imgsale{
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F2EF;
+}
+
+/* ไม่เอาแล้วไอสัส */
+/* .imgsale img{
+    object-fit: cover;
+    width: 130px;
+    height: fit-content;
+} */
+
+.main{
+    display: flex;
+    background-image: url('../../Asset/wallpaper/Group\ 74.png ');
+    background-position: left top;
+    margin-top: -80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxleft{
+    width: 80%;
+}
+
+.boxright{
+    width: 35%;
+    float: right;
+}
+
+.dcardimg{
+    width: 180px;
+    background-color: #F5F2EF;
+    border-radius: 13px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    overflow: hidden;
+    padding: 15px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.saleimg{
+    background-image: url('../../Asset/drink/sale.png');
+}
+
+.coffeeimg{
+    background-image: url('../../Asset/drink/bean.png');
+}
+
+.card-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.cardtag{
+    width: 300px;
+    height: 300px;
+    background-color: #ECE7E2;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+    
+}
+
+.cardtag h1{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight:600;
+    text-align: center;
+    color: #4A351C;
+}
+

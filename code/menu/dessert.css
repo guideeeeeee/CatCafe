@@ -1,0 +1,24 @@
+
+.drinkicon{
+    display: flex;
+    justify-content:center;
+    padding: 2.5% 0 0 ;
+}
+.drinkicon button{
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+.drinkicon button img{
+    height: 40px;
+    padding: 5px 0 0 0;
+}
+.drank {
+    padding: 0 5% 0 5%;
+}
+.drank img{
+    height: 50px;
+}

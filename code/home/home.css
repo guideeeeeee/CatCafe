@@ -4,24 +4,132 @@
     margin: 0;
     padding: 0;
 }
+
 /* catCafe */
 
-.box1{
-    display: flex;
-    width: 100%;
-    height: 100%;
+.catCafe-main{
+    display:flex;
+    align-items:center; 
 }
 
+/* left */
 
-/* love cat */
+.catCafe-left{
+    /* flex-grow: 1; */
+    width: 50%;
+    padding: 0 0 5% 7%;
+    
+    
+}
+.catCafe-left-top img , .catCafe-left-bottom img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 
+/* right */
 
+.tor{
+    z-index:1;
+    transform: scale(0.6);
+    position: absolute;
+    left: 28%;
+    bottom: 5%;
+
+}
+.catCafe-right{
+    /* flex-grow: 3; */
+    width: 70%;
+}
+
+.boxfortextCatCafe{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.catCafe-box{
+    display:flex;
+    width: 700px;
+    
+    z-index: 999;
+    /* background-image: url('/Asset/home/Group\ 69.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    height: auto; */
+    background-image: url('../../Asset/home/Group 69.svg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.tonnam{
+    z-index: 999;
+    font-family: "Playfair Display", serif;
+    color: #2B231D;
+    font-size: 50px;
+    font-weight: 650;
+}
+.tonzab{
+    z-index: 999;
+    font-family: "DM Sans", sans-serif;
+    color: #1E1E1E;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 350;
+    margin-bottom: 2%;
+}
+.catCafebutton button{
+    z-index: 999;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #DE6868 ;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 7px 13px 10px;
+    box-shadow: 0 0 2  1 #1E1E1E;
+
+}
+.catCafebutton p {
+    z-index: 999;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.catCafebutton img{
+    z-index: 999;
+    padding-left:10px;
+    width: 20;
+}
 /* Our Cafe */
 
-.box2{
-    background-color: #94735C;
-    opacity: 36%;
-    width: 100%;
-    height: 1000px;
-    z-index: 999;
+.ourCafe-main{
+    background-image:url('../../Asset/home/bgour.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}   
+.ourcafetop , .ourcafemid{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0 0 0;
+}
+.ourcafetop img{
+    width:25%;
+}
+.ourcafemid-text{
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.ourcafebottom{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 3% 0 7% 5%;
+}
+.ourcafebottom img{
+    opacity: 70%;
+    width: 80%;
 }
