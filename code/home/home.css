@@ -112,7 +112,10 @@
     border-radius: 5px;
     padding: 13px 7px 13px 10px;
     box-shadow: 0 0 2  1 #1E1E1E;
-
+    transition: transform 0.6s ease;
+}
+.catCafebutton button:hover{
+    transform: scale(1.1);
 }
 .catCafebutton p {
     z-index: 999;
