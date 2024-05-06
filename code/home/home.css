@@ -16,27 +16,29 @@
 /* left */
 
 .catCafe-left{
-    /* flex-grow: 1; */
-    /* width: 30%; */
     flex: 1;
-    padding: 0 0 5% 7%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* img logo */
 
 .catCafe-left-top img {
     width: 400px;
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: -10px;
+
 }
 
 /* img cat */
 
 .catCafe-left-bottom img{
     width: 80%;
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 60px;
 }
 
@@ -45,8 +47,6 @@
 
 /* box ครอบ absolute */
 .catCafe-right{
-    /* flex-grow: 3; */
-    /* width: 70%; */
     flex: 2;
     height: auto;
     padding-top: 7%;
@@ -69,13 +69,6 @@
     height: 550px;
     justify-content: center;
     align-items: center;
-    /* background-image: url('/Asset/home/Group\ 69.svg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: auto;
-    height: auto; */
-    
-    
 }
 
 .catCafe-box2{
@@ -84,11 +77,6 @@
     height: 550px;
     justify-content: center;
     align-items: center;
-    /* background-image: url('/Asset/home/Group\ 69.svg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: auto;
-    height: auto; */
     background-image: url('../../Asset/home/Group 69.svg');
     background-position: left top;
     background-repeat: no-repeat;
@@ -96,14 +84,6 @@
     position: absolute;
     
 }
-
-/* 
-@media (max-width: 400px){
-    .catCafe-main{
-        height: 500px;
-        flex-direction: column;
-    }
-} */
 
 .tonnam{
     z-index: 999;

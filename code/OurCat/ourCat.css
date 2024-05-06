@@ -6,6 +6,13 @@
     font-family: "Playfair Display", serif;
 }
 
+.main{
+    background-image: url('../../Asset/ourCat/Group\ 106.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .mainBot{
     width: 100%;
     display: flex;
@@ -15,16 +22,17 @@
 .wrapper{
     margin: 50px auto;
     width: 80%;
+    padding-top: 70px;
 }
 
 
 
 .imgcat{
-    max-width: 190px;
+    max-width: 270px;
     border-radius: 50%;
     border: 0px solid #5A4C41;
-    
-    margin: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .img-left{
@@ -42,12 +50,17 @@
 }
 
 .text-box h1{
-    margin-right: 1px;
-    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    padding: 0 10px 0 10px;
 }
+
 .text-box p{
     font-family: "DM Sans", sans-serif;
-    font-size: 24px;
+    letter-spacing: 1.5px;
+    font-size: 28px;
     color : #2B231D;
 }
 
@@ -70,6 +83,6 @@
     justify-content: center;
 }
 .imgpromptpay img{
-    width: 50%;
+    width: 100%;
     
 }

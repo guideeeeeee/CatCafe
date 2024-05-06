@@ -37,9 +37,6 @@ const postMethod = ()=>{
 }
 postMethod()
 
-//
-
-
 const searchInput = document.querySelector('input[type="text"]');
 searchInput.addEventListener('input', handleSearch);
 
