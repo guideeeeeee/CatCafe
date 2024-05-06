@@ -16,11 +16,14 @@
     align-items: center;
     border-radius: 10px;
     border: none;
+<<<<<<< HEAD
+=======
     transition : width 0.6s ease;
 }
 .drinkicon button:hover{
     background-color: #e1d7cf;
     width: 110px;
+>>>>>>> f1f174062bcdcefcd8c8bd5315a9204282f7b659
 }
 .drinkicon button img{
     height: 40px;
@@ -28,17 +31,18 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
 
+}
 .drank {
     padding: 0 5% 0 5%;
 }
 .drank img{
     height: 50px;
+    
 }
 
 .drinksearch{
-    z-index:999;
+    z-index:1000;
     display: flex;
     justify-content: center;
     padding: 40px 0 0 0 ;
@@ -46,7 +50,7 @@
 .drinksearch input{
     padding-left: 10px;
     font-family: "DM Sans", sans-serif;
-    z-index: 999;
+    z-index: 1000;
     border-color: #8E8177;
     border-style: solid;
     border-width: 2px;
@@ -93,7 +97,7 @@
     
 }
 .dcard:hover{
-    transform: scale(1.1);
+    transform: translateY(-20px);
 }
 
 .Menudrink {
