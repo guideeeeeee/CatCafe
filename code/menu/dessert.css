@@ -81,9 +81,13 @@
     background-color: #F5F2EF;
     border-radius: 15px;;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    transition: transform 0.6s ease;
     overflow: hidden;
     padding: 20px;
     
+}
+.dcard:hover{
+    transform: translateY(-20px);
 }
 
 
