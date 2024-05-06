@@ -32,7 +32,16 @@
                         <p class="tonnam">We love cat</p>
                         <p class="tonzab">Find joy in the purrs of contentment amidst the aromatic <br> brews of a Cat & Cafe, where feline companionship meets the <br>comforting embrace of a cozy corner.</p>
                         <div class="catCafebutton">
-                        <button><p>Explore more</p>
+                        <button onclick="scrollToSection('ourCafe')"><p>Explore more</p>
+                            <script>
+                                function scrollToSection(id){
+                                    console.log("click");
+                                    const section = document.getElementById(id);
+                                    if(section){
+                                        section.scrollIntoView({behavior:"smooth"});
+                                    }
+                                }
+                            </script>
                         <img src="../../Asset/home/arrow-right.png" alt=""></button>
                         </div>
     
@@ -44,7 +53,7 @@
     </div>
 
 
-    <div class="ourCafe-main" >
+    <div class="ourCafe-main" id="ourCafe" >
         <div class="ourcafetop">
             <img src="../../Asset/home/ourcafe.svg" alt="">
         </div>

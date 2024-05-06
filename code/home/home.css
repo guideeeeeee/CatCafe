@@ -11,6 +11,7 @@
     display:flex;
     align-items:center; 
     height: auto;
+    scroll-behavior: smooth;
 }
 
 /* left */
