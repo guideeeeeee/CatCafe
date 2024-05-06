@@ -16,14 +16,12 @@
     align-items: center;
     border-radius: 10px;
     border: none;
-<<<<<<< HEAD
-=======
     transition : width 0.6s ease;
 }
 .drinkicon button:hover{
     background-color: #e1d7cf;
     width: 110px;
->>>>>>> f1f174062bcdcefcd8c8bd5315a9204282f7b659
+
 }
 .drinkicon button img{
     height: 40px;
