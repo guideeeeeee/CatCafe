@@ -1,8 +1,8 @@
 const nav = document.querySelector('.thisnav') //classname ของไฟล์ที่จะดึงไฟล์จากclass navbar มาใช้
-fetch('../nav/navbar.html') // file location //ใช้ fetch API เพื่อดึงข้อมูลจาก URL
+fetch('../nav/navbar.html') // file location /
 .then(res =>res.text())
 .then(data=>{
-    nav.innerHTML=data //เปลี่ยนตัวแปรในนี้ด้วยถ้าจะใช้
+    nav.innerHTML=data 
 })
 
 // ใช้สำหรับดึงและแสดงเนื้อหาของไฟล์ HTML จาก URL นั้นๆ 

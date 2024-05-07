@@ -53,7 +53,9 @@ searchInput.addEventListener('input', handleSearch);
 
 function handleSearch() {
     const searchTerm = searchInput.value.toLowerCase();
-    const filteredDrinks = listDrink.filter(drink => drink.name.toLowerCase().includes(searchTerm));
+    let filteredDrinks = listDrink.filter(drink => drink.name.toLowerCase().includes(searchTerm));
+    // Exclude items with names 'bgimg' and 'bgimg1' from the filtered drinks
+    filteredDrinks = filteredDrinks.filter(drink => drink.name !== 'bgimg' && drink.name !== 'bgimg1');
     renderFilteredDrinks(filteredDrinks);
 }
 
